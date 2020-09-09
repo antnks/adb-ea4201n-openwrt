@@ -122,6 +122,25 @@ define Device/netgear_dgnd3700-v2
 endef
 TARGET_DEVICES += netgear_dgnd3700-v2
 
+### ADB ###
+define Device/adb_ea4201n
+  $(Device/bcm63xx-nand)
+  DEVICE_VENDOR := ADB
+  DEVICE_MODEL := EA4201N
+  DEVICE_VARIANT := v3
+  CHIP_ID := 6362
+  CFE_RAM_FILE := adb,ea4201n/cferam
+  CFE_RAM_JFFS2_NAME := cferam
+  CFE_RAM_JFFS2_PAD := 496k
+  BLOCKSIZE := 16k
+  PAGESIZE := 512
+  DEVICE_PACKAGES += $(B43_PACKAGES) $(USB2_PACKAGES)
+  CFE_WFI_VERSION := 0x5731
+  CFE_WFI_FLASH_TYPE := 2
+endef
+TARGET_DEVICES += adb_ea4201n
+
+
 ### Sercomm ###
 define Device/sercomm_ad1018
   $(Device/sercomm-nand)
