@@ -24,3 +24,6 @@ This is an experiment to load the latest OpenWRT on this device:
 * User: `tadmin`
 * Password: `hqMV8Wps`
 
+## OpenWRT forum topic
+
+[https://forum.openwrt.org/t/new-device-adb-p-rg-ea4201n-g/48220](https://forum.openwrt.org/t/new-device-adb-p-rg-ea4201n-g/48220)
