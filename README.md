@@ -11,7 +11,7 @@ This is an experiment to load the latest OpenWRT on this device:
 * Board ID: 96362ADVNrtk
 * RAM: 128MB
 * Flash: NAND 64MB, ST NAND512W3A2CN6
-* Switch: RTL8367R, 1000bps, 4 LAN + 1 WAN
+* Switch: RTL8367R, 1000mbps (GbE), 4 LAN + 1 WAN
 * DSL: yes
 * VoIP: yes, 2 dect ports
 * WLAN: Broadcom BCM435f 802.11 Wireless Controller 6.30.102.3.cpe4.12L07.0
